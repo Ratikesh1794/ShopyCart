@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "name": "boAt Immortal 121",
+    "category": "Airpods",
+    "price": 1999.00,
+    "image": "./assets/products/airpodes/boAt Immortal 121 1.webp"
+  },
+  {
+    "id": 2,
+    "name": "boAt TRebel Airdopes 181",
+    "category": "Airpods",
+    "price": 2499.00,
+    "image": "./assets/products/airpodes/boAt TRebel Airdopes 181 1.webp"
+  },
+  {
+    "id": 3,
+    "name": "boAt Airdopes 411 ANC",
+    "category": "Airpods",
+    "price": 1599.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 411 ANC 1.webp"
+  },
+  {
+    "id": 4,
+    "name": "boAt Airdopes 451v2",
+    "category": "Airpods",
+    "price": 2999.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 451v2 1.webp"
+  },
+  {
+    "id": 5,
+    "name": "boAt Airdopes 501 ANC",
+    "category": "Airpods",
+    "price": 2499.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 501 ANC 1.webp"
+  },
+  {
+    "id": 6,
+    "name": "boAt Airdopes 511 V2",
+    "category": "Airpods",
+    "price": 999.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 511 V2 1.webp"
+  },
+  {
+    "id": 7,
+    "name": "boAt Airdopes 701 ANC",
+    "category": "Airpods",
+    "price": 1099.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 701 ANC 1.webp"
+  },
+  {
+    "id": 8,
+    "name": "boAt Airdopes 172",
+    "category": "Airpods",
+    "price": 499.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 172 1.webp"
+  },
+  {
+    "id": 9,
+    "name": "boAt Airdopes 192",
+    "category": "Airpods",
+    "price": 349.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 192 1.webp"
+  },
+  {
+    "id": 10,
+    "name": "boAt Airdopes 201",
+    "category": "Airpods",
+    "price": 149.00,
+    "image": "./assets/products/airpodes/boAt Airdopes 201 1.webp"
+  },
+  {
+    "id": 11,
+    "name": "boAt Cosmos Pro",
+    "category": "Watches",
+    "price": 5499.00,
+    "image": "./assets/products/watches/boAt Cosmos Pro 1.webp"
+  },
+  {
+    "id": 12,
+    "name": "boAt Storm",
+    "category": "Watches",
+    "price": 7999.00,
+    "image": "./assets/products/watches/boAt Storm 1.webp"
+  },
+  {
+    "id": 13,
+    "name": "boAt Storm Call",
+    "category": "Watches",
+    "price": 6999.00,
+    "image": "./assets/products/watches/boAt Storm Call 1.webp"
+  },
+  {
+    "id": 14,
+    "name": "boAt Storm Pro Call",
+    "category": "Watches",
+    "price": 5599.00,
+    "image": "./assets/products/watches/boAt Storm Pro Call 1.webp"
+  },
+  {
+    "id": 15,
+    "name": "boAt Storm RTL",
+    "category": "Watches",
+    "price": 2299.00,
+    "image": "./assets/products/watches/boAt Storm RTL 1.webp"
+  },
+  {
+    "id": 16,
+    "name": "boAt TRebel Blaze",
+    "category": "Watches",
+    "price": 1499.00,
+    "image": "./assets/products/watches/boAt TRebel Blaze 1.webp"
+  },
+  {
+    "id": 17,
+    "name": "boAt TRebel Matrix",
+    "category": "Watches",
+    "price": 2899.00,
+    "image": "./assets/products/watches/boAt TRebel Matrix 1.webp"
+  },
+  {
+    "id": 18,
+    "name": "boAt Wave Beat",
+    "category": "Watches",
+    "price": 1999.00,
+    "image": "./assets/products/watches/boAt Wave Beat 1.webp"
+  },
+  {
+    "id": 19,
+    "name": "boAt Wave Beat Call",
+    "category": "Watches",
+    "price": 3499.00,
+    "image": "./assets/products/watches/boAt Wave Beat Call 1.webp"
+  },
+  {
+    "id": 20,
+    "name": "boAt Wave Call",
+    "category": "Watches",
+    "price": 499.00,
+    "image": "./assets/products/watches/boAt Wave Call 1.webp"
+  },
+  {
+    "id": 21,
+    "name": "SAMSUNG Galaxy M53 5G (Mystique Green, 128 GB) (8 GB RAM)",
+    "category": "Mobile",
+    "price": 69999.00,
+    "image": "./assets/products/mobile/SAMSUNG Galaxy M53 5G (Mystique Green, 128 GB) (8 GB RAM) 3.webp"
+  },
+  {
+    "id": 22,
+    "name": "realme Narzo 50A (Oxygen Blue, 128 GB) (4 GB RAM)",
+    "category": "Mobile",
+    "price": 79999.00,
+    "image": "./assets/products/mobile/realme Narzo 50A (Oxygen Blue, 128 GB) (4 GB RAM) 1.webp"
+  },
+  {
+    "id": 23,
+    "name": "realme C35 (Glowing Green, 64 GB) (4 GB RAM)",
+    "category": "Mobile",
+    "price": 64999.00,
+    "image": "./assets/products/mobile/realme C35 (Glowing Green, 64 GB) (4 GB RAM) 1.webp"
+  },
+  {
+    "id": 24,
+    "name": "realme 7 Pro (Mirror Silver, 128 GB) (6 GB RAM)",
+    "category": "Mobile",
+    "price": 59999.00,
+    "image": "./assets/products/mobile/realme 7 Pro (Mirror Silver, 128 GB) (6 GB RAM) 1.webp"
+  },
+  {
+    "id": 25,
+    "name": "SAMSUNG Galaxy A03 (Black, 32 GB) (3 GB RAM)",
+    "category": "Mobile",
+    "price": 54999.00,
+    "image": "./assets/products/mobile/SAMSUNG Galaxy A03 (Black, 32 GB) (3 GB RAM) 1.webp"
+  },
+  {
+    "id": 26,
+    "name": "SAMSUNG Galaxy A10s (Black, 32 GB) (3 GB RAM)",
+    "category": "Mobile",
+    "price": 56999.00,
+    "image": "./assets/products/mobile/SAMSUNG Galaxy A10s (Black, 32 GB) (3 GB RAM) 1.webp"
+  }
+]
