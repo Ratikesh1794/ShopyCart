@@ -1,25 +1,44 @@
-import React, { useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
+import { AppContext } from '../context/Context';
+import { Link } from 'react-router-dom';
+import LoginPrompt from './LoginPrompt'; // Import the LoginPrompt component
 
-const ProductCard = ({ product, addToCart, updateCartItem, cartItems }) => {
+const ProductCard = ({ product }) => {
+  const { cartItems, addToCart, updateCartItem, user } = useContext(AppContext);
   const [quantity, setQuantity] = useState(0);
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
+
+  useEffect(() => {
+    const cartItem = cartItems.find(item => item.id === product.id);
+    setQuantity(cartItem ? cartItem.quantity : 0);
+  }, [cartItems, product.id]);
 
   const handleAddToCart = () => {
-    setQuantity(1);
-    addToCart(product);
+    if (user) {
+      addToCart(product);
+    } else {
+      setShowLoginPrompt(true);
+    }
   };
 
   const handleIncrement = () => {
-    setQuantity(quantity + 1);
-    updateCartItem(product, quantity + 1);
+    setQuantity(prevQuantity => {
+      const newQuantity = prevQuantity + 1;
+      updateCartItem(product, newQuantity);
+      return newQuantity;
+    });
   };
 
   const handleDecrement = () => {
     if (quantity > 1) {
-      setQuantity(quantity - 1);
-      updateCartItem(product, quantity - 1);
+      setQuantity(prevQuantity => {
+        const newQuantity = prevQuantity - 1;
+        updateCartItem(product, newQuantity);
+        return newQuantity;
+      });
     } else {
       setQuantity(0);
-      updateCartItem(product, 0);  // You might want to remove the item from the cart here
+      updateCartItem(product, 0);  // Optionally remove the item from the cart
     }
   };
 
@@ -54,12 +73,20 @@ const ProductCard = ({ product, addToCart, updateCartItem, cartItems }) => {
               className="bg-gray-200 text-gray-700 px-2 py-1 rounded hover:bg-gray-300">
               +
             </button>
+            <Link to="/cart" className="ml-4">
+              <button
+                className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+                onClick={() => window.scrollTo(0, 0)} // Optional: Scroll to top when navigating
+              >
+                Go to Cart
+              </button>
+            </Link>
           </div>
         )}
       </div>
+      {showLoginPrompt && <LoginPrompt onClose={() => setShowLoginPrompt(false)} />}
     </div>
   );
 };
 
 export default ProductCard;
-
